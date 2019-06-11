@@ -742,8 +742,14 @@ loadPlayer({
 }());
 (function iife() {
   "use strict";
-  const show = (el) => el.classList.remove("hide");
-  const hide = (el) => el.classList.add("hide");
+
+  function show(el) {
+    el.classList.remove("hide");
+  }
+
+  function hide(el) {
+    el.classList.add("hide");
+  }
 
   function getButtonContainer(el) {
     while (el.classList.contains("playButton") === false) {
