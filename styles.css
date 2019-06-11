@@ -792,9 +792,13 @@ body {
 
 .wrapd .stack {
   position: relative;
-  stroke-width: 2px;
-  stroke: lime;
+  stroke: #5F6A98;
+  stroke-width: 5;
   fill: transparent;
+}
+
+.outer {
+  stroke-width: 2;
 }
 
 .wrapd .play,
