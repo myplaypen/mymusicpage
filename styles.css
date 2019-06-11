@@ -838,12 +838,12 @@ body {
   margin: 45px 0 0 0;
   border-radius: 25px;
   border: 3px solid #0059dd;
-  box-sizing: border-box;
+
 }
 
 .jacketb,
 .wrape {
-  background: url("https://i.imgur.com/hibXwFj.jpg") no-repeat 0 0;
+  background: url("https://i.imgur.com/9q9gIEO.jpg") no-repeat 0 0;
 }
 
 .jacketb .linka {
@@ -883,7 +883,7 @@ body {
   overflow: hidden;
   margin: 45px 0 0 0;
   border-radius: 25px;
-  background-position: 0 -168px;
+  background-position: 0 -174px;
 }
 
 .nav {
@@ -902,7 +902,7 @@ body {
   float: left;
   width: 50px;
   height: 50px;
-  margin: 0 4px 12px 0;
+  margin: 0 4px 15px 0;
   color: transparent;
   background: rgba(0, 0, 0, 0.2);
   border: 3px solid #0059dd;
