@@ -52,9 +52,7 @@ body {
 }
 
 .jacketa .coversvg .front {
-  fill: none;
   stroke: #08f9ff;
-  stroke-width: 4px;
   stroke-dasharray: 150;
   stroke-dashoffset: 1500;
 	animation: draw 20s infinite linear, flicker-1 2s linear 2s infinite both;
