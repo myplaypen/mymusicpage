@@ -173,6 +173,10 @@ const load = (function makeLoad() {
 (function manageCover() {
   "use strict";
   
+  function show(el) {
+    el.classList.remove("hide");
+  }
+
   function hide(el) {
     el.classList.add("hide");
   }
