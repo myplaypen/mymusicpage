@@ -19,6 +19,7 @@ const load = (function makeLoad() {
     js: _load("script")
   };
 }());
+
 (function iife() {
   "use strict";
 
@@ -39,6 +40,7 @@ const load = (function makeLoad() {
   const cover = document.querySelector(".jacketa");
   cover.addEventListener("click", coverClickHandler);
 }());
+
 (function iife() {
   "use strict";
 
@@ -156,6 +158,7 @@ const load = (function makeLoad() {
   }
   initButton(".wrapa");
 }());
+
 (function manageCover() {
   "use strict";
 
@@ -170,6 +173,7 @@ const load = (function makeLoad() {
   const cover = document.querySelector(".jacket-top");
   cover.addEventListener("click", coverClickHandler);
 }());
+
 (function manageCover() {
   "use strict";
 
@@ -222,7 +226,7 @@ const videoPlayer = (function makeVideoPlayer() {
       player.playVideoAt(0);
       hasShuffled = true;
     }
-    if (event.data == YT.PlayerState.PLAYING) {
+    if (event.data === YT.PlayerState.PLAYING) {
       for (let i = 0; i < players.length; i++) {
         if (players[i] !== event.target) players[i].pauseVideo();
       }
@@ -301,6 +305,14 @@ function loadPlayer(opts) {
 }
 const playlist = "0dgNc5S8cLI,mnfmQe8Mv1g,-Xgi_way56U,CHahce95B1g";
 
+
+loadPlayer({
+  target: ".jacket-top",
+  width: 930,
+  height: 429
+});
+
+
 loadPlayer({
   target: ".jacketc",
   width: 600,
@@ -355,7 +367,7 @@ loadPlayer({
   start: 2
 });
 loadPlayer({
-  target: ".iota",
+  target: ".iota"
 });
 (function iife() {
   "use strict";
