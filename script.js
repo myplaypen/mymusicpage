@@ -2,12 +2,12 @@ const load = (function makeLoad() {
   "use strict";
 
   function _load(tag) {
-    return function (url) {
-      return new Promise(function (resolve) {
+    return function(url) {
+      return new Promise(function(resolve) {
         const element = document.createElement(tag);
         const parent = "body";
         const attr = "src";
-        element.onload = function () {
+        element.onload = function() {
           resolve(url);
         };
         element[attr] = url;
@@ -167,12 +167,26 @@ const load = (function makeLoad() {
     const cover = evt.currentTarget;
     hide(cover);
   }
+  const cover = document.querySelector(".jacket-top");
+  cover.addEventListener("click", coverClickHandler);
+}());
+(function manageCover() {
+  "use strict";
+
+  function hide(el) {
+    el.classList.add("hide");
+  }
+
+  function coverClickHandler(evt) {
+    const cover = evt.currentTarget;
+    hide(cover);
+  }
   const cover = document.querySelector(".jacketc");
   cover.addEventListener("click", coverClickHandler);
 }());
 (function manageCover() {
   "use strict";
-  
+
   function show(el) {
     el.classList.remove("hide");
   }
@@ -232,8 +246,8 @@ const videoPlayer = (function makeVideoPlayer() {
   }
 
   function init(video, settings) {
-    load.js("https://www.youtube.com/player_api").then(function () {
-      YT.ready(function () {
+    load.js("https://www.youtube.com/player_api").then(function() {
+      YT.ready(function() {
         addVideo(video, settings);
       });
     });
