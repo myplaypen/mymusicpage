@@ -278,20 +278,31 @@ body {
   border-radius: 25px;
   border: 3px solid #0059dd;
   box-sizing: border-box;
-  background: url("https://i.imgur.com/b2Xh3bT.jpg") no-repeat 0 0;
+  background: url("https://i.imgur.com/tEkG4LQ.jpg") no-repeat 0 0;
 }
 
 .jacket-top .play {
   position: absolute;
-  left: 0;
   top: 0;
-  right: 0;
+  left: 0;
   bottom: 0;
+  right: 0;
   margin: auto;
-  fill: transparent;
-  border-radius: 25px;
-  stroke: #0059dd;
-  stroke-width: 1;
+  width: 141.683px;
+  height: 100px;
+}
+
+.jacket-top .front {
+  fill: #212121;
+  fill-opacity: 0.8;
+}
+
+.jacket-top:hover .front {
+  fill: #f00;
+}
+
+.jacket-top .middle {
+  fill: #fff;
 }
 
 .jacket-top .lines::before,
