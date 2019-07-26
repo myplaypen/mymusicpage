@@ -58,7 +58,7 @@ body {
   stroke: #08f9ff;
   stroke-dasharray: 150;
   stroke-dashoffset: 1500;
-	animation: draw 20s infinite linear, flicker-1 2s linear 2s infinite both;
+  animation: draw 20s infinite linear, flicker-1 2s linear 2s infinite both;
 }
 
 @keyframes draw {
