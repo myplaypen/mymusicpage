@@ -281,21 +281,6 @@ body {
   background: url("https://i.imgur.com/jEMIULl.jpg") no-repeat 0 0;
 }
 
-.jacket-top .lines::before,
-.jacket-top .lines::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 308px;
-  width: 3px;
-  height: 100%;
-  background: #0059dd;
-}
-
-.jacket-top .lines::after {
-  left: 619px;
-}
-
 .container-left {
   float: left;
   margin: 0;
