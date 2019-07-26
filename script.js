@@ -308,7 +308,7 @@ const playlist = "0dgNc5S8cLI,mnfmQe8Mv1g,-Xgi_way56U,CHahce95B1g";
 loadPlayer({
     target: ".jacket-top",
     width: 930,
-    height: 429
+    height: 523
 });
 loadPlayer({
     target: ".jacketc",
