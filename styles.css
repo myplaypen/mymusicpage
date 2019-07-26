@@ -272,37 +272,13 @@ body {
 
 .jacket-top {
   position: relative;
-  height: 523px;
+  height: 398px;
   cursor: pointer;
   margin: 0 0 45px 0;
   border-radius: 25px;
   border: 3px solid #0059dd;
   box-sizing: border-box;
-  background: url("https://i.imgur.com/1czcefV.jpg") no-repeat 0 0;
-}
-
-.jacket-top .play {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  width: 68px;
-  height: 48px;
-}
-
-.jacket-top .front {
-  fill: #212121;
-  fill-opacity: 0.8;
-}
-
-.jacket-top:hover .front {
-  fill: #f00;
-}
-
-.jacket-top .middle {
-  fill: #fff;
+  background: url("https://i.imgur.com/jEMIULl.jpg") no-repeat 0 0;
 }
 
 .jacket-top .lines::before,
@@ -320,40 +296,7 @@ body {
   left: 619px;
 }
 
-.wrap-top {
-  position: relative;
-  height: 523px;
-  margin: 0 0 45px 0;
-  cursor: pointer;
-  overflow: hidden;
-  border-radius: 25px;
-  border: 3px solid #0059dd;
-  box-sizing: border-box;
-}
 
-.wrap-top iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 930px;
-  height: 523px;
-  cursor: pointer;
-}
-
-.wrap-top .lines::before,
-.wrap-top .lines::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 308px;
-  width: 3px;
-  height: 100%;
-  background: #0059dd;
-}
-
-.wrap-top .lines::after {
-  left: 619px;
-}
 
 .container-left {
   float: left;
