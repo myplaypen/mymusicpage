@@ -19,7 +19,6 @@ const load = (function makeLoad() {
         js: _load("script")
     };
 }());
-
 (function iife() {
     "use strict";
 
@@ -40,7 +39,6 @@ const load = (function makeLoad() {
     const cover = document.querySelector(".jacketa");
     cover.addEventListener("click", coverClickHandler);
 }());
-
 (function iife() {
     "use strict";
 
@@ -158,22 +156,6 @@ const load = (function makeLoad() {
     }
     initButton(".wrapa");
 }());
-
-(function manageCover() {
-    "use strict";
-
-    function hide(el) {
-        el.classList.add("hide");
-    }
-
-    function coverClickHandler(evt) {
-        const cover = evt.currentTarget;
-        hide(cover);
-    }
-    const cover = document.querySelector(".jacket-top");
-    cover.addEventListener("click", coverClickHandler);
-}());
-
 (function manageCover() {
     "use strict";
 
