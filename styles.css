@@ -272,7 +272,7 @@ body {
 
 .jacket-top {
   position: relative;
-  height: 398px;
+  height: 310px;
   cursor: pointer;
   margin: 0 0 45px 0;
   border-radius: 25px;
@@ -295,8 +295,6 @@ body {
 .jacket-top .lines::after {
   left: 619px;
 }
-
-
 
 .container-left {
   float: left;
