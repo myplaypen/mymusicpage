@@ -272,13 +272,13 @@ body {
 
 .jacket-top {
   position: relative;
-  height: 435px;
+  height: 523px;
   cursor: pointer;
   margin: 0 0 45px 0;
   border-radius: 25px;
   border: 3px solid #0059dd;
   box-sizing: border-box;
-  background: url("https://i.imgur.com/b2Xh3bT.jpg") no-repeat 0 0;
+  background: url("https://i.imgur.com/1czcefV.jpg") no-repeat 0 0;
 }
 
 .jacket-top .play {
@@ -322,7 +322,7 @@ body {
 
 .wrap-top {
   position: relative;
-  height: 435px;
+  height: 523px;
   margin: 0 0 45px 0;
   cursor: pointer;
   overflow: hidden;
