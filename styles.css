@@ -280,6 +280,30 @@ body {
   background: url("https://i.imgur.com/jEMIULl.jpg") no-repeat 0 0;
 }
 
+.jacket-top .play {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 68px;
+  height: 48px;
+}
+
+.jacket-top .play .front {
+  fill: #212121;
+  fill-opacity: 0.8;
+}
+
+.jacket-top .play:hover .front {
+  fill: #f00;
+}
+
+.jacket-top .play .middle {
+  fill: #fff;
+}
+
 .container-left {
   float: left;
   margin: 0;
