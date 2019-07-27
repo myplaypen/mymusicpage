@@ -291,16 +291,16 @@ body {
   height: 48px;
 }
 
-.jacket-top .play .front {
+.jacket-top .front {
   fill: #212121;
   fill-opacity: 0.8;
 }
 
-.jacket-top .play:hover .front {
+.jacket-top:hover .front {
   fill: #f00;
 }
 
-.jacket-top .play .middle {
+.jacket-top .middle {
   fill: #fff;
 }
 
