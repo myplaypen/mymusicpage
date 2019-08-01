@@ -281,6 +281,28 @@ body {
   background: url("https://i.imgur.com/jEMIULl.jpg") no-repeat 0 0;
 }
 
+blockquote {
+  position: relative;
+  width: 400px;
+  margin: 8px 0 0 14px;
+}
+
+blockquote p {
+  display: inline;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.45;
+  color: #383838;
+}
+
+blockquote cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
 .container-top .header .play {
   position: absolute;
   top: 0;
