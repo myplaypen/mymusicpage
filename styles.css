@@ -287,6 +287,10 @@ blockquote {
   margin: 8px 0 0 14px;
 }
 
+a {
+  text-decoration: none;
+}
+
 blockquote p {
   display: inline;
   font-family: Georgia, serif;
