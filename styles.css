@@ -281,7 +281,7 @@ body {
   background: url("https://i.imgur.com/jEMIULl.jpg") no-repeat 0 0;
 }
 
-blockquote {
+.container-top .header blockquote {
   position: relative;
   width: 400px;
   margin: 8px 0 0 14px;
