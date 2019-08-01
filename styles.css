@@ -291,7 +291,7 @@ a {
   text-decoration: none;
 }
 
-blockquote p {
+.container-top .header blockquote p {
   display: inline;
   font-family: Georgia, serif;
   font-size: 18px;
@@ -300,7 +300,7 @@ blockquote p {
   color: #383838;
 }
 
-blockquote cite {
+.container-top .header blockquote cite {
   color: #999999;
   font-size: 14px;
   display: block;
