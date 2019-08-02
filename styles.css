@@ -270,41 +270,40 @@ body {
   margin: 0;
 }
 
+.container-left-text {
+  float: left;
+  margin: 0px;
+}
+
+.container-right-text {
+  float: right;
+}
+
 .container-top .header {
   position: relative;
   height: 310px;
-  cursor: pointer;
   margin: 0 0 45px 0;
   border-radius: 25px;
   border: 3px solid #0059dd;
   box-sizing: border-box;
-  background: url("https://i.imgur.com/jEMIULl.jpg") no-repeat 0 0;
+  background: url("https://via.placeholder.com/930x310") no-repeat 0 0;
 }
 
-.container-top .header blockquote {
-  position: relative;
-  width: 400px;
-  margin: 8px 0 0 14px;
-}
-
-a {
-  text-decoration: none;
-}
-
-.container-top .header blockquote p {
-  display: inline;
-  font-family: Georgia, serif;
-  font-size: 18px;
-  font-style: italic;
-  line-height: 1.45;
-  color: #383838;
-}
-
-.container-top .header blockquote cite {
-  color: #999999;
-  font-size: 14px;
-  display: block;
-  margin-top: 5px;
+.container-top .header .circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #0059dd;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+  outline: currentcolor none medium;
+  cursor: pointer;
 }
 
 .container-top .header .play {
@@ -314,21 +313,61 @@ a {
   bottom: 0;
   right: 0;
   margin: auto;
-  width: 68px;
-  height: 48px;
+  width: 22px;
+  height: 38px;
+  color: #0059dd;
 }
 
-.container-top .header .front {
-  fill: #212121;
-  fill-opacity: 0.8;
+.container-top .header .container-left-text .content {
+  position: relative;
+  width: 400px;
+  margin: 8px 0 0 8px;
 }
 
-.container-top .header:hover .front {
-  fill: #f00;
+.container-top .header .container-left-text .content .quote {
+  display: inline;
+  font-family: Georgia, serif;
+  font-size: 1.125em;
+  font-style: italic;
+  line-height: 1.45;
+  color: #383838;
+  text-decoration: none;
 }
 
-.container-top .header .middle {
-  fill: #fff;
+.container-top .header .container-left-text .content .author {
+  color: #999999;
+  font-size: 0.875em;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 5px;
+}
+
+.container-top .header .container-right-text .content {
+  position: relative;
+  width: 400px;
+  margin: 145px 8px 0 0;
+}
+
+.container-top .header .container-right-text .content .quote {
+  display: inline;
+  font-family: Georgia, serif;
+  font-size: 1.125em;
+  font-style: italic;
+  line-height: 1.45;
+  color: #383838;
+  text-decoration: none;
+}
+
+.container-top .header .container-right-text .content .author {
+  color: #999999;
+  font-size: 0.875em;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container-left {
