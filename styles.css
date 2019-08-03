@@ -289,20 +289,6 @@ body {
   background: url("https://i.imgur.com/jEMIULl.jpg") no-repeat 0 0;
 }
 
-.container-top .header .circle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  width: 40px;
-  height: 40px;
-  border: 1px solid #0059dd;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
 .container-top .header .play {
   position: absolute;
   top: 0;
@@ -310,9 +296,9 @@ body {
   bottom: 0;
   right: 0;
   margin: auto;
-  width: 22px;
-  height: 38px;
-  color: #0059dd;
+  width: 42px;
+  height: 42px;
+  fill: blue;
 }
 
 .container-top .header .container-left-text .content {
