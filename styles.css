@@ -1128,7 +1128,7 @@ a {
 .container-right .wrapf .play,
 .container-right .wrapf .pause {
   position: absolute;
-  top: -1px;
+  top: -2px;
   left: 14px;
   bottom: 0;
   right: 0;
