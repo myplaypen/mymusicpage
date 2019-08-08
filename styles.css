@@ -267,7 +267,7 @@ body {
   background: #000000;
 }
 
-.container-top {
+ .container .container-top {
   position: relative;
   height: 310px;
   margin: 0 0 45px 0;
@@ -277,10 +277,6 @@ body {
   background: url("https://i.imgur.com/jEMIULl.jpg") no-repeat 0 0;
 }
 
-.jacket-left,
-.jacket-right {
-  background: url("https://i.imgur.com/l0QmDbB.png") no-repeat -2px -2px;
-}
 
 .container-left-video {
   margin: 0;
@@ -291,6 +287,14 @@ body {
   float: right;
 }
 
+
+.container-left-video .jacket-left,
+.container-right-video .jacket-right {
+  background: url("https://i.imgur.com/l0QmDbB.png") no-repeat -2px -2px;
+}
+
+
+
 .container-right-video,
 .container-left-video {
   position: relative;
@@ -298,7 +302,7 @@ body {
   transform: translateY(-50%);
 }
 
-.jacket-left {
+.container-left-video .jacket-left {
   position: relative;
   width: 80px;
   height: 80px;
@@ -307,7 +311,7 @@ body {
 
 }
 
-.jacket-left .circle {
+.container-left-video .jacket-left .circle {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -323,7 +327,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
 }
 
-.jacket-left .play {
+.container-left-video .jacket-left .play {
   position: absolute;
   left: 0;
   top: 0;
@@ -335,7 +339,7 @@ body {
   fill: #0059dd;
 }
 
-.wrap-left {
+.container-left-video .wrap-left {
   position: relative;
   width: 424px;
   height: 239px;
@@ -345,7 +349,7 @@ body {
   border-radius: 25px;
 }
 
-.wrap-left iframe {
+.container-left-video .wrap-left iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -354,7 +358,7 @@ body {
   cursor: pointer;
 }
 
-.jacket-right {
+.container-right-video .jacket-right {
   position: relative;
   width: 80px;
   height: 80px;
@@ -363,7 +367,7 @@ body {
   background-position: -2px -84px;
 }
 
-.jacket-right .circle {
+.container-right-video .jacket-right .circle {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -379,7 +383,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
 }
 
-.jacket-right .play {
+container-right-video .jacket-right .play {
   position: absolute;
   left: 0;
   top: 0;
@@ -391,7 +395,7 @@ body {
   fill: #0059dd;
 }
 
-.wrap-right {
+container-right-video .wrap-right {
   position: relative;
   width: 424px;
   height: 239px;
@@ -403,7 +407,7 @@ body {
   box-sizing: border-box;
 }
 
-.wrap-right iframe {
+container-right-video .wrap-right iframe {
   position: absolute;
   top: 0;
   left: 0;
