@@ -360,6 +360,7 @@ body {
   height: 80px;
   cursor: pointer;
   margin-right: 191px;
+  background-position: 0 -80px;
 }
 
 .container-right-video .jacket-right .circle {
