@@ -268,19 +268,6 @@ body {
 }
 
 .container-top {
-  margin: 0;
-}
-
-.container-left-text {
-  float: left;
-  margin: 0px;
-}
-
-.container-right-text {
-  float: right;
-}
-
-.container-top .header {
   position: relative;
   height: 310px;
   margin: 0 0 45px 0;
@@ -290,68 +277,139 @@ body {
   background: url("https://i.imgur.com/jEMIULl.jpg") no-repeat 0 0;
 }
 
-.container-top .header .play {
+.jacket-left,
+.jacket-right {
+  background: url("https://i.imgur.com/l0QmDbB.png") no-repeat -2px -2px;
+}
+
+.container-left-video {
+  margin: 0;
+  float: left;
+}
+
+.container-right-video {
+  float: right;
+}
+
+.container-right-video,
+.container-left-video {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.jacket-left {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  margin-left: 191px;
+
+}
+
+.jacket-left .circle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #0059dd;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
+}
+
+.jacket-left .play {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 38px;
+  height: 22px;
+  fill: #0059dd;
+}
+
+.wrap-left {
+  position: relative;
+  width: 424px;
+  height: 239px;
+  margin-left: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.wrap-left iframe {
   position: absolute;
   top: 0;
   left: 0;
+  width: 424px;
+  height: 239px;
+  cursor: pointer;
+}
+
+.jacket-right {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  margin-right: 191px;
+  background-position: -2px -84px;
+}
+
+.jacket-right .circle {
+  position: absolute;
+  top: 0;
   bottom: 0;
+  left: 0;
   right: 0;
   margin: auto;
-  width: 42px;
-  height: 42px;
-  fill: blue;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #0059dd;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
 }
 
-.container-top .header .container-left-text .content {
+.jacket-right .play {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 38px;
+  height: 22px;
+  fill: #0059dd;
+}
+
+.wrap-right {
   position: relative;
-  width: 400px;
-  margin: 8px 0 0 8px;
+  width: 424px;
+  height: 239px;
+  margin: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 3px solid #0059dd;
+  box-sizing: border-box;
 }
 
-.container-top .header .container-left-text .content .quote {
-  display: inline;
-  font-family: Georgia, serif;
-  font-size: 1.125em;
-  font-style: italic;
-  line-height: 1.45;
-  color: #383838;
-  text-decoration: none;
-}
-
-.container-top .header .container-left-text .content .author {
-  color: #999999;
-  font-size: 0.875em;
-  font-style: italic;
-  font-family: "Times New Roman", Times, serif;
-  margin-top: 5px;
-}
-
-.container-top .header .container-right-text .content {
-  position: relative;
-  width: 400px;
-  margin: 145px 8px 0 0;
-}
-
-.container-top .header .container-right-text .content .quote {
-  display: inline;
-  font-family: Georgia, serif;
-  font-size: 1.125em;
-  font-style: italic;
-  line-height: 1.45;
-  color: #383838;
-  text-decoration: none;
-}
-
-.container-top .header .container-right-text .content .author {
-  color: #999999;
-  font-size: 0.875em;
-  font-style: italic;
-  font-family: "Times New Roman", Times, serif;
-  margin-top: 5px;
-}
-
-a {
-  text-decoration: none;
+.wrap-right iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 424px;
+  height: 239px;
+  cursor: pointer;
 }
 
 .container-left {
