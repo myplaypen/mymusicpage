@@ -320,6 +320,18 @@ function loadPlayer(opts) {
 const playlist = "0dgNc5S8cLI,mnfmQe8Mv1g,-Xgi_way56U,CHahce95B1g";
 
 loadPlayer({
+  target: ".jacket-left",
+  width: 424,
+  height: 239
+});
+loadPlayer({
+  target: ".jacket-right",
+  width: 424,
+  height: 239
+});
+
+
+loadPlayer({
     target: ".jacketc",
     width: 600,
     height: 338,
