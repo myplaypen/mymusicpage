@@ -287,13 +287,10 @@ body {
   float: right;
 }
 
-
 .container-left-video .jacket-left,
 .container-right-video .jacket-right {
   background: url("https://i.imgur.com/l0QmDbB.png") no-repeat -2px -2px;
 }
-
-
 
 .container-right-video,
 .container-left-video {
@@ -314,8 +311,8 @@ body {
 .container-left-video .jacket-left .circle {
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
+  bottom: 0;
   right: 0;
   margin: auto;
   width: 40px;
@@ -329,10 +326,10 @@ body {
 
 .container-left-video .jacket-left .play {
   position: absolute;
-  left: 0;
   top: 0;
-  right: 0;
+  left: 0;
   bottom: 0;
+  right: 0;
   margin: auto;
   width: 38px;
   height: 22px;
@@ -358,28 +355,19 @@ body {
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
 .container-right-video .jacket-right {
   position: relative;
   width: 80px;
   height: 80px;
   cursor: pointer;
   margin-right: 191px;
-
 }
 
 .container-right-video .jacket-right .circle {
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
+  bottom: 0;
   right: 0;
   margin: auto;
   width: 40px;
@@ -393,10 +381,10 @@ body {
 
 .container-right-video .jacket-right .play {
   position: absolute;
-  left: 0;
   top: 0;
-  right: 0;
+  left: 0;
   bottom: 0;
+  right: 0;
   margin: auto;
   width: 38px;
   height: 22px;
@@ -508,10 +496,10 @@ body {
 
 .container-left .jacketc .play {
   position: absolute;
-  left: 0;
   top: 0;
-  right: 0;
+  left: 0;
   bottom: 0;
+  right: 0;
   margin: auto;
   fill: #fa33fc;
 }
