@@ -19,6 +19,38 @@ const load = (function makeLoad() {
         js: _load("script")
     };
 }());
+
+(function manageCover() {
+  "use strict";
+
+  function hide(el) {
+    el.classList.add("hide");
+  }
+
+  function coverClickHandler(evt) {
+    const cover = evt.currentTarget;
+    hide(cover);
+  }
+  const cover = document.querySelector(".jacket-left");
+  cover.addEventListener("click", coverClickHandler);
+}());
+
+(function manageCover() {
+  "use strict";
+
+  function hide(el) {
+    el.classList.add("hide");
+  }
+
+  function coverClickHandler(evt) {
+    const cover = evt.currentTarget;
+    hide(cover);
+  }
+  const cover = document.querySelector(".jacket-right");
+  cover.addEventListener("click", coverClickHandler);
+}());
+
+
 (function iife() {
     "use strict";
 
