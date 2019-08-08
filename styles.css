@@ -358,13 +358,21 @@ body {
   cursor: pointer;
 }
 
+
+
+
+
+
+
+
+
 .container-right-video .jacket-right {
   position: relative;
   width: 80px;
   height: 80px;
   cursor: pointer;
   margin-right: 191px;
-  background-position: -2px -84px;
+
 }
 
 .container-right-video .jacket-right .circle {
@@ -383,7 +391,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
 }
 
-container-right-video .jacket-right .play {
+.container-right-video .jacket-right .play {
   position: absolute;
   left: 0;
   top: 0;
@@ -395,19 +403,17 @@ container-right-video .jacket-right .play {
   fill: #0059dd;
 }
 
-container-right-video .wrap-right {
+.container-right-video .wrap-right {
   position: relative;
   width: 424px;
   height: 239px;
-  margin: 10px;
+  margin-left: 10px;
   cursor: pointer;
   overflow: hidden;
   border-radius: 25px;
-  border: 3px solid #0059dd;
-  box-sizing: border-box;
 }
 
-container-right-video .wrap-right iframe {
+.container-right-video .wrap-right iframe {
   position: absolute;
   top: 0;
   left: 0;
