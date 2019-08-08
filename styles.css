@@ -305,7 +305,6 @@ body {
   height: 80px;
   cursor: pointer;
   margin-left: 191px;
-
 }
 
 .container-left-video .jacket-left .circle {
@@ -340,7 +339,7 @@ body {
   position: relative;
   width: 424px;
   height: 239px;
-  margin-right: 10px;
+  margin-left: 10px;
   cursor: pointer;
   overflow: hidden;
   border-radius: 25px;
@@ -395,7 +394,7 @@ body {
   position: relative;
   width: 424px;
   height: 239px;
-  margin-left: 10px;
+  margin-right: 10px;
   cursor: pointer;
   overflow: hidden;
   border-radius: 25px;
