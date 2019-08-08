@@ -570,6 +570,7 @@ body {
 .container-left .jacketd,
 .container-left .wraph {
   background: url("https://i.imgur.com/baApP9x.png") no-repeat 0 0;
+ 
 }
 
 .container-left .jacketd .coversvg {
@@ -967,6 +968,7 @@ body {
 .container-right .jacketb,
 .container-right .wrape {
   background: url("https://i.imgur.com/hibXwFj.jpg") no-repeat 0 0;
+   background-size: 110%;
 }
 
 .container-right .jacketb .linka {
