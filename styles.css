@@ -291,6 +291,8 @@ body {
 .container-left-video .jacket-left,
 .container-right-video .jacket-right {
   background: url("https://i.imgur.com/fzdYu8g.jpg") no-repeat 0 0;
+  background-size: 100% 200%;
+ 
 }
 
 .container-right-video,
@@ -365,6 +367,7 @@ body {
   cursor: pointer;
   margin-right: 180px;
   background-position: 0 -80px;
+  background-size: 100% 200%;
 }
 
 .container-right-video .jacket-right .circle {
