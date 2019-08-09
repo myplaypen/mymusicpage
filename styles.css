@@ -762,6 +762,7 @@ body {
 .container-right .wrapb,
 .container-right .wrapb::before {
   background: url("https://i.imgur.com/OPi93Ak.png") no-repeat 0 0;
+  background-size: 100% 200%;
 }
 
 .container-right .wrapb::before {
@@ -772,6 +773,7 @@ body {
   width: 266px;
   height: 266px;
   background-position: 0 -260px;
+  background-size: 100% 200%;
   opacity: 0;
   border: 3px solid #0059dd;
   box-sizing: border-box;
