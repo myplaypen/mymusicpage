@@ -377,18 +377,17 @@ body {
 
 .container-right-video .jacket-right .circle {
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  width: 40px;
-  height: 40px;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
   box-sizing: border-box;
   border: 1px solid #0059dd;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;
+  transition: transform 0.1s ease 0s;
   box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
+  outline: currentcolor none medium;
 }
 
 .container-right-video .jacket-right .play {
@@ -404,30 +403,11 @@ body {
 }
 
 .container-right-video .jacket-right .circle:hover {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 44px;
-  height: 44px;
-  box-sizing: border-box;
   border: 1px solid red;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.5);
-  box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
+  transform: scale(1.1);
 }
 
 .container-right-video .jacket-right .circle:hover .play {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  width: 24.2px;
-  height: 41.8px;
   fill: red;
 }
 
