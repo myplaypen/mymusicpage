@@ -573,7 +573,7 @@ body {
 .container-left .jacketd,
 .container-left .wraph {
   background: url("https://i.imgur.com/baApP9x.png") no-repeat 0 0;
- 
+ background-size: 100% 200%;
 }
 
 .container-left .jacketd .coversvg {
@@ -617,6 +617,7 @@ body {
   border: 3px solid #0059dd;
   box-sizing: border-box;
   background-position: 0 -600px;
+  background-size: 100% 200%;
 }
 
 .container-left .wraph .nav {
