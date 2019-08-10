@@ -317,6 +317,7 @@ body {
   box-sizing: border-box;
   border: 1px solid #0059dd;
   border-radius: 50%;
+  cursor: pointer;
   background: rgba(0, 0, 0, 0.5);
   transition: transform 0.1s ease 0s;
   box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
@@ -380,6 +381,7 @@ body {
   box-sizing: border-box;
   border: 1px solid #0059dd;
   border-radius: 50%;
+  cursor: pointer;
   background: rgba(0, 0, 0, 0.5);
   transition: transform 0.1s ease 0s;
   box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
