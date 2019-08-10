@@ -278,7 +278,6 @@ body {
   background-size:cover;
 }
 
-
 .container-left-video {
   margin: 0;
   float: left;
@@ -306,7 +305,6 @@ body {
   position: relative;
   width: 80px;
   height: 80px;
-  cursor: pointer;
   margin-left: 183px;
 }
 
@@ -368,7 +366,6 @@ body {
   position: relative;
   width: 80px;
   height: 80px;
-  cursor: pointer;
   margin-right: 183px;
   background-position: 0 -80px;
   background-size: 100% 200%;
