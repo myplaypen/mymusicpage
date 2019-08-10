@@ -319,10 +319,9 @@ body {
   box-sizing: border-box;
   border: 1px solid #0059dd;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;
+  background: rgba(0, 0, 0, 0.5);
   transition: transform 0.1s ease 0s;
   box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
-  outline: currentcolor none medium;
 }
 
 .container-left-video .jacket-left .play {
@@ -384,10 +383,9 @@ body {
   box-sizing: border-box;
   border: 1px solid #0059dd;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;
+  background: rgba(0, 0, 0, 0.5);
   transition: transform 0.1s ease 0s;
   box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
-  outline: currentcolor none medium;
 }
 
 .container-right-video .jacket-right .play {
