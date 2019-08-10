@@ -482,6 +482,10 @@ body {
   fill: #aa00ff;
 }
 
+.container-left .wrapa .custom-fill {
+  fill: #000000;
+}
+
 .container-left .wrapa .pause {
   fill: #000000;
 }
