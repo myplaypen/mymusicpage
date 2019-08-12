@@ -944,7 +944,7 @@ body {
   fill: transparent;
 }
 
-.container-right .outer {
+.container-right .wrapd .outer {
   stroke-width: 2;
 }
 
