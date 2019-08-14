@@ -258,12 +258,13 @@ body {
 }
 
 .container {
-  width: 936px;
+  width: 990px;
   padding: 25px;
   overflow: hidden;
   margin: 100px auto;
   border-radius: 25px;
   border: 2px solid #0059dd;
+  box-sizing: border-box;
   background: #000000;
 }
 
