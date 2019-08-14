@@ -348,7 +348,7 @@ body {
   position: relative;
   width: 424px;
   height: 239px;
-  margin-left: 13px;
+  margin-left: 25px;
   cursor: pointer;
   overflow: hidden;
   border-radius: 25px;
@@ -367,7 +367,7 @@ body {
   position: relative;
   width: 80px;
   height: 80px;
-  margin-right: 183px;
+  margin-right: 231px;
   background-position: 0 -80px;
   background-size: 100% 200%;
 }
@@ -412,7 +412,7 @@ body {
   position: relative;
   width: 424px;
   height: 239px;
-  margin-right: 13px;
+  margin-right: 25px;
   cursor: pointer;
   overflow: hidden;
   border-radius: 25px;
