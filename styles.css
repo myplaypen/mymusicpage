@@ -878,6 +878,7 @@ body {
   width: 83px;
 }
 
+/*
 .container-right .wrapc .svoefm {
   fill: #aaff00;
 }
@@ -907,7 +908,23 @@ body {
 
 .container-right .wrapc .soundpark .pause {
   margin: 15px 42px;
-}
+}   */
+
+.container-right .wrapc .svoefm .play,
+.container-right .wrapc .svoefm .pause,
+.container-right .wrapc .soundpark .play,
+.container-right .wrapc .soundpark .pause,
+.container-right .wrapc .rcm .play,
+.container-right .wrapc .rcm .pause {
+   position: absolute;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   cursor: pointer;
+ }
+
 
 .container-right .wrapc .lines::before,
 .container-right .wrapc .lines::after {
