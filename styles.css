@@ -267,7 +267,7 @@ body {
   background: #000000;
 }
 
- .container .container-top {
+ .container-top {
   position: relative;
   height: 310px;
   margin: 0 0 45px 0;
@@ -429,11 +429,13 @@ body {
 
 .container-left {
   float: left;
+  width:606px; 
   margin: 0;
 }
 
 .container-right {
   float: right;
+   width:266px; 
 }
 
 .container-left .wrapa {
@@ -578,7 +580,6 @@ body {
 
 .container-left .jacketd {
   position: relative;
-  width: 606px;
   height: 606px;
   cursor: pointer;
   margin: 45px 0 0 0;
@@ -784,7 +785,7 @@ body {
   position: absolute;
   top: -3px;
   left: -3px;
-  width: 266px;
+  height: 266px;
   height: 266px;
   background-position: 0 -260px;
   background-size: 100% 200%;
