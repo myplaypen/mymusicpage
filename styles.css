@@ -44,7 +44,7 @@ body {
 
 .jacketa .coversvg {
   width: 70px;
-  height:75.4px;
+  height: 75.4px;
   fill: none;
   stroke-width: 4px;
   stroke-miterlimit: 10;
@@ -267,7 +267,7 @@ body {
   background: #000000;
 }
 
- .container-top {
+.container-top {
   position: relative;
   height: 310px;
   margin: 0 0 45px 0;
@@ -275,7 +275,7 @@ body {
   border: 3px solid #0059dd;
   box-sizing: border-box;
   background: url("https://i.imgur.com/jEMIULl.jpg") no-repeat 0 0;
-  background-size:cover;
+  background-size: cover;
 }
 
 .container-left-video {
@@ -291,7 +291,6 @@ body {
 .container-right-video .jacket-right {
   background: url("https://i.imgur.com/fzdYu8g.jpg") no-repeat 0 0;
   background-size: 100% 200%;
- 
 }
 
 .container-right-video,
@@ -429,13 +428,13 @@ body {
 
 .container-left {
   float: left;
-  width:606px; 
+  width: 606px;
   margin: 0;
 }
 
 .container-right {
   float: right;
-   width:266px; 
+  width: 266px;
 }
 
 .container-left .wrapa {
@@ -515,7 +514,7 @@ body {
   border: 3px solid #0059dd;
   box-sizing: border-box;
   background: url("https://i.imgur.com/gI9vM6E.jpg") no-repeat 0 0;
-  background-size:cover;
+  background-size: cover;
 }
 
 .container-left .jacketc .play {
@@ -591,7 +590,7 @@ body {
 .container-left .jacketd,
 .container-left .wraph {
   background: url("https://i.imgur.com/baApP9x.png") no-repeat 0 0;
- background-size: 100% 200%;
+  background-size: 100% 200%;
 }
 
 .container-left .jacketd .coversvg {
@@ -992,7 +991,7 @@ body {
 .container-right .jacketb,
 .container-right .wrape {
   background: url("https://i.imgur.com/hibXwFj.jpg") no-repeat 0 0;
-   background-size: 102.307% 203.571%;
+  background-size: 102.307% 203.571%;
 }
 
 .container-right .jacketb .linka {
@@ -1163,7 +1162,7 @@ body {
   border: 3px solid #0059dd;
   box-sizing: border-box;
   background: url("https://i.imgur.com/K7OzsxI.png") no-repeat 0 0;
-  background-size:cover;
+  background-size: cover;
 }
 
 .container-right .wrapf svg {
