@@ -42,35 +42,34 @@ const load = (function makeLoad() {
 }());
 
 (function manageCover() {
-  "use strict";
+    "use strict";
 
-  function hide(el) {
-    el.classList.add("hide");
-  }
+    function hide(el) {
+        el.classList.add("hide");
+    }
 
-  function coverClickHandler(evt) {
-    const cover = evt.currentTarget;
-    hide(cover);
-  }
-  const cover = document.querySelector(".jacket-left");
-  cover.addEventListener("click", coverClickHandler);
+    function coverClickHandler(evt) {
+        const cover = evt.currentTarget;
+        hide(cover);
+    }
+    const cover = document.querySelector(".jacket-left");
+    cover.addEventListener("click", coverClickHandler);
 }());
 
 (function manageCover() {
-  "use strict";
+    "use strict";
 
-  function hide(el) {
-    el.classList.add("hide");
-  }
+    function hide(el) {
+        el.classList.add("hide");
+    }
 
-  function coverClickHandler(evt) {
-    const cover = evt.currentTarget;
-    hide(cover);
-  }
-  const cover = document.querySelector(".jacket-right");
-  cover.addEventListener("click", coverClickHandler);
+    function coverClickHandler(evt) {
+        const cover = evt.currentTarget;
+        hide(cover);
+    }
+    const cover = document.querySelector(".jacket-right");
+    cover.addEventListener("click", coverClickHandler);
 }());
-
 
 
 (function iife() {
@@ -322,14 +321,14 @@ function loadPlayer(opts) {
 const playlist = "0dgNc5S8cLI,mnfmQe8Mv1g,-Xgi_way56U,CHahce95B1g";
 
 loadPlayer({
-  target: ".jacket-left",
-  width: 424,
-  height: 238
+    target: ".jacket-left",
+    width: 424,
+    height: 238
 });
 loadPlayer({
-  target: ".jacket-right",
-  width: 424,
-  height: 238
+    target: ".jacket-right",
+    width: 424,
+    height: 238
 });
 
 
