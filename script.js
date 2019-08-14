@@ -20,6 +20,27 @@ const load = (function makeLoad() {
     };
 }());
 
+(function iife() {
+    "use strict";
+
+    function show(el) {
+        el.classList.remove("hide");
+    }
+
+    function hide(el) {
+        el.classList.add("hide");
+    }
+
+    function coverClickHandler(evt) {
+        const cover = evt.currentTarget;
+        const thewrap = cover.parentNode.querySelector(".container");
+        hide(cover);
+        show(thewrap);
+    }
+    const cover = document.querySelector(".jacketa");
+    cover.addEventListener("click", coverClickHandler);
+}());
+
 (function manageCover() {
   "use strict";
 
@@ -51,26 +72,7 @@ const load = (function makeLoad() {
 }());
 
 
-(function iife() {
-    "use strict";
 
-    function show(el) {
-        el.classList.remove("hide");
-    }
-
-    function hide(el) {
-        el.classList.add("hide");
-    }
-
-    function coverClickHandler(evt) {
-        const cover = evt.currentTarget;
-        const thewrap = cover.parentNode.querySelector(".container");
-        hide(cover);
-        show(thewrap);
-    }
-    const cover = document.querySelector(".jacketa");
-    cover.addEventListener("click", coverClickHandler);
-}());
 (function iife() {
     "use strict";
 
