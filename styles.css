@@ -347,7 +347,7 @@ body {
 .container-left-video .wrap-left {
   position: relative;
   width: 424px;
-  height: 239px;
+  height: 238px;
   margin-left: 25px;
   cursor: pointer;
   overflow: hidden;
@@ -411,7 +411,7 @@ body {
 .container-right-video .wrap-right {
   position: relative;
   width: 424px;
-  height: 239px;
+  height: 238px;
   margin-right: 25px;
   cursor: pointer;
   overflow: hidden;
