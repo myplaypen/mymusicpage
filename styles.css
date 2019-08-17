@@ -280,18 +280,24 @@ body {
 }
 
 .container-left-video {
-  margin: 0;
   float: left;
+  width: 424px;
+  background: red;
+  margin-left: 25px;
 }
 
 .container-right-video {
   float: right;
+  width: 424px;
+  background: red;
+  margin-right: 25px;
 }
 
 .container-left-video .jacket-left,
 .container-right-video .jacket-right {
   background: url("https://i.imgur.com/fzdYu8g.jpg") no-repeat 0 0;
   background-size: 100% 200%;
+  margin: auto;
 }
 
 .container-right-video,
@@ -305,7 +311,6 @@ body {
   position: relative;
   width: 80px;
   height: 80px;
-  margin-left: 196px;
 }
 
 .container-left-video .jacket-left .circle {
@@ -348,7 +353,6 @@ body {
   position: relative;
   width: 424px;
   height: 238px;
-  margin-left: 25px;
   cursor: pointer;
   overflow: hidden;
   border-radius: 25px;
@@ -367,7 +371,6 @@ body {
   position: relative;
   width: 80px;
   height: 80px;
-  margin-right: 196px;
   background-position: 0 -80px;
   background-size: 100% 200%;
 }
@@ -412,7 +415,6 @@ body {
   position: relative;
   width: 424px;
   height: 238px;
-  margin-right: 25px;
   cursor: pointer;
   overflow: hidden;
   border-radius: 25px;
