@@ -279,17 +279,22 @@ body {
   background-size: cover;
 }
 
+.container-right-video,
+.container-left-video {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 424px;
+  border-radius: 25px;
+}
+
 .container-left-video {
   float: left;
-  width: 424px;
-  background: red;
   margin-left: 25px;
 }
 
 .container-right-video {
   float: right;
-  width: 424px;
-  background: red;
   margin-right: 25px;
 }
 
@@ -300,12 +305,7 @@ body {
   margin: auto;
 }
 
-.container-right-video,
-.container-left-video {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
+
 
 .container-left-video .jacket-left {
   position: relative;
