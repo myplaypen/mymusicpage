@@ -305,8 +305,6 @@ body {
   margin: auto;
 }
 
-
-
 .container-left-video .jacket-left {
   position: relative;
   width: 80px;
@@ -427,6 +425,35 @@ body {
   width: 424px;
   height: 238px;
   cursor: pointer;
+}
+
+.container-top .button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 64px;
+  height: 64px;
+  fill: teal;
+}
+
+.container-top .button .circle {
+  fill: #C75C5C;
+}
+
+.container-top .button .background {
+  opacity: 0.2;
+  fill: #231F20;
+}
+
+.container-top .button .ring {
+  fill: #E0E0D1;
+}
+
+.container-top .button .play {
+  fill: #F5CF87;
 }
 
 .container-left {
