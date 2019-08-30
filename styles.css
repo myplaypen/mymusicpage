@@ -259,8 +259,9 @@ body {
 
 .container {
   width: 990px;
-  padding: 25px;
   margin: 100px auto;
+  padding: 25px;
+  overflow: hidden;
   border-radius: 25px;
   border: 2px solid #0059dd;
   box-sizing: border-box;
