@@ -108,7 +108,7 @@ const load = (function makeLoad() {
 
     function hideAllButtons(button) {
         const buttons = button.querySelectorAll(".play, .pause, .speaker");
-        for (let i = 0; i < buttons.length; i += 1) {
+        for (let i = 0; i < buttons.length; i++) {
             hide(buttons[i]);
         }
     }
@@ -135,7 +135,7 @@ const load = (function makeLoad() {
 
     function pauseAllButtons() {
         let buttons = document.querySelectorAll(".playButton");
-        for (let i = 0; i < buttons.length; i += 1) {
+        for (let i = 0; i < buttons.length; i++) {
             if (isPlaying(buttons[i])) {
                 showPlayButton(buttons[i]);
             }
@@ -238,7 +238,7 @@ const load = (function makeLoad() {
         hide(cover);
         show(thewrap);
     }
-    const cover = document.querySelector(".jacketd ");
+    const cover = document.querySelector(".jacketd");
     cover.addEventListener("click", coverClickHandler);
 }());
 const videoPlayer = (function makeVideoPlayer() {
@@ -431,13 +431,13 @@ loadPlayer({
 
     function hideAllButtons(button) {
         const buttons = button.querySelectorAll(".play, .pause, .speaker");
-        for (let i = 0; i < buttons.length; i += 1) {
+        for (let i = 0; i < buttons.length; i++) {
             hide(buttons[i]);
         }
     }
 
     function getPlay(button) {
-        return button.querySelector(".play ");
+        return button.querySelector(".play");
     }
 
     function getPause(button) {
@@ -462,7 +462,7 @@ loadPlayer({
 
     function pauseAllButtons() {
         const buttons = document.querySelectorAll(".playButton");
-        for (let i = 0; i < buttons.length; i += 1) {
+        for (let i = 0; i < buttons.length; i++) {
             if (isPlaying(buttons[i])) {
                 showPlayButton(buttons[i]);
             }
@@ -582,7 +582,7 @@ loadPlayer({
 
     function hideAllButtons(button) {
         const buttons = button.querySelectorAll(".play, .pause, .speaker");
-        for (let i = 0; i < buttons.length; i += 1) {
+        for (let i = 0; i < buttons.length; i++) {
             hide(buttons[i]);
         }
     }
@@ -609,7 +609,7 @@ loadPlayer({
 
     function pauseAllButtons() {
         let buttons = document.querySelectorAll(".playButton");
-        for (let i = 0; i < buttons.length; i += 1) {
+        for (let i = 0; i < buttons.length; i++) {
             if (isPlaying(buttons[i])) {
                 showPlayButton(buttons[i]);
             }
@@ -725,7 +725,7 @@ loadPlayer({
 
     function pauseAllButtons() {
         let buttons = document.querySelectorAll(".playButton");
-        for (let i = 0; i < buttons.length; i += 1) {
+        for (let i = 0; i < buttons.length; i++) {
             if (isPlaying(buttons[i])) {
                 showPlayButton(buttons[i]);
             }
@@ -834,7 +834,7 @@ loadPlayer({
 
     function hideAllButtons(button) {
         const buttons = button.querySelectorAll(".play, .pause, .speaker");
-        for (let i = 0; i < buttons.length; i += 1) {
+        for (let i = 0; i < buttons.length; i++) {
             hide(buttons[i]);
         }
     }
@@ -861,7 +861,7 @@ loadPlayer({
 
     function pauseAllButtons() {
         let buttons = document.querySelectorAll(".playButton");
-        for (let i = 0; i < buttons.length; i += 1) {
+        for (let i = 0; i < buttons.length; i++) {
             if (isPlaying(buttons[i])) {
                 showPlayButton(buttons[i]);
             }
@@ -950,7 +950,7 @@ loadPlayer({
 
     function hideAllButtons(button) {
         const buttons = button.querySelectorAll(".play, .pause, .speaker");
-        for (let i = 0; i < buttons.length; i += 1) {
+        for (let i = 0; i < buttons.length; i++) {
             hide(buttons[i]);
         }
     }
@@ -977,7 +977,7 @@ loadPlayer({
 
     function pauseAllButtons() {
         let buttons = document.querySelectorAll(".playButton");
-        for (let i = 0; i < buttons.length; i += 1) {
+        for (let i = 0; i < buttons.length; i++) {
             if (isPlaying(buttons[i])) {
                 showPlayButton(buttons[i]);
             }
