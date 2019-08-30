@@ -279,15 +279,20 @@ const playlist = "0dgNc5S8cLI,mnfmQe8Mv1g,-Xgi_way56U,CHahce95B1g";
 
 loadPlayer({
     target: ".jacket-left",
-    width: 424,
-    height: 238
+    width: 277,
+    height: 207
+});
+
+loadPlayer({
+    target: ".jacket-middle",
+    width: 277,
+    height: 207
 });
 loadPlayer({
     target: ".jacket-right",
-    width: 424,
-    height: 238
+    width: 277,
+    height: 207
 });
-
 
 loadPlayer({
     target: ".jacketc",
