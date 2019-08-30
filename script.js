@@ -41,6 +41,53 @@ const load = (function makeLoad() {
     cover.addEventListener("click", coverClickHandler);
 }());
 
+(function manageCover() {
+    "use strict";
+
+    function hide(el) {
+        el.classList.add("hide");
+    }
+
+    function coverClickHandler(evt) {
+        const cover = evt.currentTarget;
+        hide(cover);
+    }
+    const cover = document.querySelector(".jacket-left");
+    cover.addEventListener("click", coverClickHandler);
+}());
+
+
+(function manageCover() {
+    "use strict";
+
+    function hide(el) {
+        el.classList.add("hide");
+    }
+
+    function coverClickHandler(evt) {
+        const cover = evt.currentTarget;
+        hide(cover);
+    }
+    const cover = document.querySelector(".jacket-middle");
+    cover.addEventListener("click", coverClickHandler);
+}());
+
+(function manageCover() {
+    "use strict";
+
+    function hide(el) {
+        el.classList.add("hide");
+    }
+
+    function coverClickHandler(evt) {
+        const cover = evt.currentTarget;
+        hide(cover);
+    }
+    const cover = document.querySelector(".jacket-right");
+    cover.addEventListener("click", coverClickHandler);
+}());
+
+
 (function iife() {
     "use strict";
 
@@ -162,6 +209,21 @@ const load = (function makeLoad() {
 (function manageCover() {
     "use strict";
 
+    function hide(el) {
+        el.classList.add("hide");
+    }
+
+    function coverClickHandler(evt) {
+        const cover = evt.currentTarget;
+        hide(cover);
+    }
+    const cover = document.querySelector(".jacketc");
+    cover.addEventListener("click", coverClickHandler);
+}());
+
+(function manageCover() {
+    "use strict";
+
     function show(el) {
         el.classList.remove("hide");
     }
@@ -270,7 +332,6 @@ function loadPlayer(opts) {
         const wrapper = evt.currentTarget.nextElementSibling;
         show(wrapper);
         initPlayer(wrapper);
-        evt.currentTarget.classList.add("hide");
     }
     const cover = document.querySelector(opts.target);
     cover.addEventListener("click", coverClickHandler);
