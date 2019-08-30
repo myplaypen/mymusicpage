@@ -279,7 +279,7 @@ body {
   background-size: cover;
 }
 
-.video-contain {
+.container-top .video-contain {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -290,7 +290,7 @@ body {
   border-radius: 25px;
 }
 
-.jacket {
+.container-top .jacket {
   position: relative;
   width: 80px;
   height: 80px;
@@ -299,18 +299,18 @@ body {
   background-size: 100% 200%;
 }
 
-.jacket-middle {
+.container-top .jacket-middle {
   background-position: 0 -80px;
   background-size: 100% 200%;
 }
 
 
-.jacket-right {
+.container-top .jacket-right {
   background-position: 0 -80px;
   background-size: 100% 200%;
 }
 
-.jacket .circle {
+.container-top .jacket .circle {
   position: absolute;
   top: 25%;
   left: 25%;
@@ -325,7 +325,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
 }
 
-.jacket .play {
+.container-top .jacket .play {
   position: absolute;
   top: 0;
   left: 0;
@@ -337,16 +337,16 @@ body {
   fill: #0059dd;
 }
 
-.jacket .circle:hover {
+.container-top .jacket .circle:hover {
   border: 1px solid red;
   transform: scale(1.1);
 }
 
-.jacket .circle:hover .play {
+.container-top .jacket .circle:hover .play {
   fill: red;
 }
 
-.wrap {
+.container-top .wrap {
   position: relative;
   width: 277px;
   height: 207px;
@@ -355,7 +355,7 @@ body {
   border-radius: 25px;
 }
 
-.wrap iframe {
+.container-top .wrap iframe {
   position: absolute;
   top: 0;
   left: 0;
