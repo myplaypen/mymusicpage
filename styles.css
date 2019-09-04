@@ -286,7 +286,6 @@ body {
   float: left;
   margin-left: 25px;
   width: 277px;
-  background: red;
   border-radius: 25px;
 }
 
@@ -371,9 +370,8 @@ body {
 }
 
 .container-right {
-  float: left;
+  float: right;
   width: 266px;
-  margin: 0 0 0 64px;
 }
 
 .container-left .wrapa {
