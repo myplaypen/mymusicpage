@@ -816,7 +816,7 @@ body {
   height: 44px;
 }
 
-.container-right .wrapc .M.Deep Radio{
+.container-right .wrapc .MDeepRadio {
   fill: #aaff00;
 }
 
@@ -829,12 +829,12 @@ body {
   fill: #ff00aa;
 }
 /*
-.container-right .wrapc .M.Deep Radio .play,
+.container-right .wrapc .MDeepRadio .play,
 .container-right .wrapc .rcm .play {
   margin: 15px 36px;
 }
 
-.container-right .wrapc .M.Deep Radio .pause,
+.container-right .wrapc .MDeepRadio .pause,
 .container-right .wrapc .rcm .pause {
   margin: 15px 37px;
 }
@@ -847,8 +847,8 @@ body {
   margin: 15px 42px;
 }   */
 
-.container-right .wrapc .M.Deep Radio .play,
-.container-right .wrapc .M.Deep Radio .pause,
+.container-right .wrapc .MDeepRadio .play,
+.container-right .wrapc .MDeepRadio .pause,
 .container-right .wrapc .soundpark .play,
 .container-right .wrapc .soundpark .pause,
 .container-right .wrapc .rcm .play,
