@@ -347,7 +347,8 @@ loadPlayer({
 loadPlayer({
     target: ".jacket-middle",
     width: 277,
-    height: 207
+    height: 207,
+    start: 4
 });
 loadPlayer({
     target: ".jacket-right",
