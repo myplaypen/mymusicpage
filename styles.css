@@ -295,17 +295,17 @@ body {
   height: 80px;
   margin: auto;
   background: url("https://i.imgur.com/NQJ5JzK.jpg") no-repeat 0 0;
-  background-size: 100% 200%;
+  background-size: 100% 300%;
 }
 
 .container-top .jacket-middle {
   background-position: 0 -80px;
-  background-size: 100% 200%;
+  background-size: 100% 300%;
 }
 
 .container-top .jacket-right {
-  background-position: 0 -80px;
-  background-size: 100% 200%;
+  background-position: 0 -160px;
+  background-size: 100% 300%;
 }
 
 .container-top .jacket .circle {
