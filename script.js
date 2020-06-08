@@ -56,7 +56,6 @@ const load = (function makeLoad() {
    cover.addEventListener("click", coverClickHandler);
 }());
 
-
 (function manageCover() {
    "use strict";
 
@@ -86,7 +85,6 @@ const load = (function makeLoad() {
    const cover = document.querySelector(".jacket-right");
    cover.addEventListener("click", coverClickHandler);
 }());
-
 
 (function iife() {
    "use strict";
