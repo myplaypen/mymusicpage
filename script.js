@@ -307,6 +307,7 @@ function loadPlayer(opts) {
       opts.autoplay = 1;
       opts.controls = 1;
       opts.rel = 0;
+      opts.enablejsapi = 1;
       opts.iv_load_policy = 3;
       opts.fs = 0;
       opts.disablekb = 1;
