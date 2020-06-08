@@ -242,58 +242,58 @@ const load = (function makeLoad() {
     cover.addEventListener("click", coverClickHandler);
 }());
 const videoPlayer = (function makeVideoPlayer() {
-    "use strict";
-    const players = [];
+   "use strict";
+   const players = [];
+   let playerVars = {};
 
-    function onPlayerReady(event) {
-        const player = event.target;
-        player.setVolume(100); // percent
-    }
+   function onPlayerReady(event) {
+      const player = event.target;
+      player.setVolume(100); // percent
+   }
 
-    let hasShuffled = false;
+   let hasShuffled = false;
 
-    function onPlayerStateChange(event) {
-        const player = event.target;
-        if (!hasShuffled) {
-            player.setShuffle(true);
-            player.playVideoAt(0);
-            hasShuffled = true;
-        }
-        if (event.data === YT.PlayerState.PLAYING) {
-            for (let i = 0; i < players.length; i++) {
-                if (players[i] !== event.target) players[i].pauseVideo();
-            }
-        }
+   function onPlayerStateChange(event) {
+      const player = event.target;
+      if (!hasShuffled) {
+         player.setShuffle(true);
+         player.playVideoAt(0);
+         hasShuffled = true;
+      }
+      if (event.data === YT.PlayerState.PLAYING) {
+         for (let i = 0; i < players.length; i++) {
+            if (players[i] !== event.target) players[i].pauseVideo();
+         }
+      }
 
-        const playerVars = player.b.b.playerVars;
-        if (playerVars.loop && event.data === YT.PlayerState.ENDED) {
-            player.seekTo(playerVars.start);
-        }
-    }
+      if (playerVars.loop && event.data === YT.PlayerState.ENDED) {
+         player.seekTo(playerVars.start);
+      }
+   }
 
-    function addVideo(video, settings) {
-        players.push(new YT.Player(video, Object.assign({
-            videoId: video.dataset.id,
-            host: "https://www.youtube-nocookie.com",
-            events: {
-                "onReady": onPlayerReady,
-                "onStateChange": onPlayerStateChange
-            }
-        }, settings)));
-    }
+   function addVideo(video, settings) {
+      playerVars = Object.assign({
+         videoId: video.dataset.id,
+         host: "https://www.youtube-nocookie.com",
+         events: {
+            "onReady": onPlayerReady,
+            "onStateChange": onPlayerStateChange
+         }
+      }, settings);
+      players.push(new YT.Player(video, playerVars));
+   }
 
-    function init(video, settings) {
-        load.js("https://www.youtube.com/player_api").then(function () {
-            YT.ready(function () {
-                addVideo(video, settings);
-            });
-        });
-    }
-    return {
-        init
-    };
+   function init(video, settings) {
+      load.js("https://www.youtube.com/player_api").then(function () {
+         YT.ready(function () {
+            addVideo(video, settings);
+         });
+      });
+   }
+   return {
+      init
+   };
 }());
-
 function loadPlayer(opts) {
     "use strict";
 
