@@ -790,7 +790,7 @@ body {
 .container-right .jacketb,
 .container-right .wrape {
   background: url("https://i.imgur.com/hibXwFj.jpg") no-repeat 0 0;
-  background-size: 102.307% 203.571%;
+  background-size: 102.307692308% 203.571428571%;
 }
 
 .container-right .jacketb .linka {
@@ -831,7 +831,7 @@ body {
   margin: 45px 0 0 0;
   border-radius: 25px;
   background-position: 0 -168px;
-  background-size: 100% 196.557%;
+  background-size: 100% 196.551724138%;
 }
 
 .container-right .wrape .nav {
