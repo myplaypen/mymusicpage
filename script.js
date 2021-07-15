@@ -1,25 +1,3 @@
-const load = (function makeLoad() {
-   "use strict";
-
-   function _load(tag) {
-      return function (url) {
-         return new Promise(function (resolve) {
-            const element = document.createElement(tag);
-            const parent = "body";
-            const attr = "src";
-            element.onload = function () {
-               resolve(url);
-            };
-            element[attr] = url;
-            document[parent].appendChild(element);
-         });
-      };
-   }
-   return {
-      js: _load("script")
-   };
-}());
-
 (function iife() {
    "use strict";
 
